@@ -61,3 +61,4 @@ The document will include the following:
 The document will be signed by all users of the network and will be reviewed every 6 months.
 
 
+![Network Code of Practice](CWA_ENTERPRISE_Network_Code_Of_Practice.docx)
