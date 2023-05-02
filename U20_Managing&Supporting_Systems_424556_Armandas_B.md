@@ -5,7 +5,7 @@ It will cover the following points:
 
 - Setting up PC's, server and printers
   - 30 PC's that share the same configuration which include:
-    - Background image: ![Bg IMG](Logo.PNG)
+    - Background image: ![Bg IMG](img/Logo.PNG)
     - Shortcuts to some apps listed below:
       - Word
       - Excel
@@ -41,7 +41,7 @@ A mock-up of the management and support infrastructure which includes:
 
 Using task management tool ('Click Up') I have created a list of tasks that need to be completed in order to set up the infrastructure. The tasks are listed below as a Gantt chart:
 
-![Task List](TaskList.PNG)
+![Task List](img/TaskList.PNG)
 
 Each task progress can be documented inside, also the tasks can be assigned a status and a priority.
 I decided to go with these Statues:
@@ -50,7 +50,7 @@ I decided to go with these Statues:
 - Implementation - The task is being worked on and implemented.
 - Complete - The task is completed.
 
-![Statuses](Status.PNG)
+![Statuses](img/Status.PNG)
 
 ## System Setup
 
@@ -81,7 +81,7 @@ The document will be signed by all users of the network and will be reviewed eve
 The document can be found in this folder named 'CWA ENTERPRISE Network Code of Practice.docx'
 
 Below is a screenshot of the completed task in 'Click Up':
-![Plan](Following_the_plan1.PNG)
+![Plan](img/Following_the_plan1.PNG)
 
 ### Feedback section:
 
@@ -104,7 +104,7 @@ The document will be signed by all users of the network and will be reviewed eve
 The document can be found in this folder named 'CWA ENTERPRISE Support Request and Escalation Procedures.docx'
 
 Below is a screenshot of the completed task in 'Click Up':
-![Plan](Following_the_plan2.PNG)
+![Plan](img/Following_the_plan2.PNG)
 
 ### Feedback section:
 
@@ -140,7 +140,7 @@ The document can be found in this folder named 'CWA ENTERPRISE Service Level Agr
 
 Below is a screenshot of the completed task in 'Click Up':
 
-![Plan](Following_the_plan3.PNG)
+![Plan](img/Following_the_plan3.PNG)
 
 ### Feedback section:
 
