@@ -104,12 +104,46 @@ The document will be signed by all users of the network and will be reviewed eve
 The document can be found in this folder named 'CWA ENTERPRISE Support Request and Escalation Procedures.docx'
 
 Below is a screenshot of the completed task in 'Click Up':
+![Plan](Following_the_plan2.PNG)
+
+### Feedback section:
+
+| Feedback | Action |
+|:---------|:-------|
+|||
 
 ## Service Level Agreement
 
-The service level agreement is a document that outlines the level of service that the IT department will provide to the users of the network. The document will be available to all users of the network and will be signed by them to show that they have read and understood the rules.
+The service level agreement is a document that outlines the level of service that the IT department will provide to the users of the network. The document will be available to owners of the business and will be signed by them to show that they have read and understood the terms.
 
 The document will include the following:
 
+- Service description
 
+- Service availability
 
+- Respone/Resolution times
+
+- Costumer duties
+
+- Service credit
+
+- Termination
+
+- Law
+
+- Entire agreement
+
+The document will be signed by the owners of the business and will be reviewed every 2 years.
+
+The document can be found in this folder named 'CWA ENTERPRISE Service Level Agreement.docx'
+
+Below is a screenshot of the completed task in 'Click Up':
+
+![Plan](Following_the_plan3.PNG)
+
+### Feedback section:
+
+| Feedback | Action |
+|:---------|:-------|
+|||
