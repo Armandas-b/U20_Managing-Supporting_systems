@@ -6,7 +6,7 @@ This repository contains both assignments for the U20 module.
 
 Follow GitHub WIKI page to see the documentation.
 
-## Assignment 
+## Assignment 2
 
 Code section contains all the documents for the assignment.
 
