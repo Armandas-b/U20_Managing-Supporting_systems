@@ -83,12 +83,6 @@ The document can be found in this folder named 'CWA ENTERPRISE Network Code of P
 Below is a screenshot of the completed task in 'Click Up':
 ![Plan](img/Following_the_plan1.PNG)
 
-### Feedback section:
-
-| Feedback | Action |
-|:---------|:-------|
-|||
-
 ## Support request and escalation procedures
 
 The support request and escalation procedures are a set of rules that need to be followed when a user has a problem with their computer. The document will be available to all users of the network and will be signed by them to show that they have read and understood the rules.
@@ -106,11 +100,6 @@ The document can be found in this folder named 'CWA ENTERPRISE Support Request a
 Below is a screenshot of the completed task in 'Click Up':
 ![Plan](img/Following_the_plan2.PNG)
 
-### Feedback section:
-
-| Feedback | Action |
-|:---------|:-------|
-|||
 
 ## Service Level Agreement
 
@@ -142,12 +131,6 @@ Below is a screenshot of the completed task in 'Click Up':
 
 ![Plan](img/Following_the_plan3.PNG)
 
-### Feedback section:
-
-| Feedback | Action |
-|:---------|:-------|
-|||
-
 ### User support documentation
 
 The user support documentation is a set of documents that will help the users of the network to resolve common problems in the system thus reducing amount of issues raised. The guide will be available to all users of the network and will be reviewed every 2 months(DEPENDING ON HOW MUCH IT HELPS).
@@ -163,12 +146,6 @@ The document will include the following:
 Below is a screenshot of the completed task in 'Click Up':
 
 ![Plan](img/Following_the_plan4.PNG)
-
-### Feedback section:
-
-| Feedback | Action |
-|:---------|:-------|
-|||
 
 ## Security policy, access control and traffic management expectations
 
@@ -196,13 +173,7 @@ The document will include the following:
 
 Below is a screenshot of the completed task in 'Click Up':
 
-![Plan](/img/Following_the_plan5.PNG)
-  
-### Feedback section:
-
-| Feedback | Action |
-|:---------|:-------|
-|||
+![Plan](img/Following_the_plan5.PNG)
 
 ## Backup procedures
 
@@ -220,11 +191,6 @@ Below is a screenshot of the completed task in 'Click Up':
 
 ![Plan](img/Following_the_plan6.PNG)
 
-### Feedback section:
-
-| Feedback | Action |
-|:---------|:-------|
-|||
 
 ## Network and System requirements
 
@@ -254,6 +220,244 @@ Overall, having the appropriate system and network requirements in place can hel
 
 ## User desktop interface(System setup)
 
+System setup consists of the following requirements:
+
+- Applications:
+  - Word(Word processing software)
+  - Excel(Spreadsheet software)
+  - Google Chrome(Web browser)
+
+- Uniform desktop background
+  - The desktop background should be the same for all users of the network. This will help to keep the network uniform and professional
+  
+    ![bg](Img/Logo.PNG)
+
+- Relevant folders
+
+  - Only the users that have access to the specifc folder may see it on the desktop. This will help to avoid clutter on the desktop and keep it clean.
+
+### Setting up the shared folders
+
+1. Right click on the folder that you want to share and select 'Properties'
+
+    ![properites](Img/properties.PNG)
+
+2. Select the 'Sharing' tab and click on 'Advanced Sharing'
+
+    ![sharing](Img/sharing.PNG)
+
+3. Tick the box that says 'Share this folder' and click on 'Permissions'
+
+    ![permissions](Img/permission.PNG)
+
+4. Select the users that you want to have access(Read, Write, Full) to the folder and click on 'OK'
+
+5. Apply changes and click on 'OK'
+
+6. Repeat the process for all the folders that you want to share
+
+### Setting up the desktop background
+
+1. Win + R and type 'gpedit.msc' and click on 'OK'
+
+    ![gpedit](Img/gpedit.PNG)
+
+2. Navigate to 'User Configuration' -> 'Administrative Templates' -> 'Desktop' -> 'Desktop'
+
+    ![desktop](Img/desktop.PNG)
+
+3. Double click on 'Desktop Wallpaper'
+
+    ![wallpaper](Img/wallpaper.PNG)
+
+4. Select 'Enabled' and type in the path to the image that you want to use as the desktop background and press 'Apply' and 'OK'
+
+    ![path](Img/path.PNG)
+
+5. Right click on the Start Menu Button and select command prompt or command prompt (Admin) to open the CMD window. Type: gpupdate /force and hit ENTER.
+
+    ![gpupdate](Img/gpupdate.PNG)
+
+6. Close the CMD window and check if the desktop background has changed (May require to sign out and sign in again)
+
+    ![dbg](Img/dbg.PNG)
+
+
+### Final result
+
+This section will show what the desktop will look like for each user type.
+
+#### Jr. Staff
+
+![jr](Img/jr.PNG)
+
+#### Managers
+
+![ManagerDesktop](Img/ManagerDesktop.PNG)
+
+#### Directors
+
+![DirectorDesktop](Img/DirectorDesktop.PNG)
+
 ## Testing, Optimisation and Evaluation
 
+For testing my solution I have decided to share my folders with my colleagues and ask them to give me feedback on the solution and the policies.
+
+To keep track of all my feedback my peers have written the feedback in a relevant clickup task like this:
+
+![feedback](Img/feedback.PNG)
+### Feedback section:
+
+|ID|Feedback|Document in review|
+|---|---|---|
+|1|![Network COP](Img/NetworkCOP.PNG)| Network Code of Practice|
+|2|![Escalation](Img/Escalation.PNG.jpg)| Support & Esclation procedures|
+|3|![UserSupport](Img/UserSupport.PNG)| User Support Documentation|
+
+## Issue tracking via clickup
+
+Clickup is a project management tool that allows you to create tasks and assign them to people. It also allows you to create subtasks and checklists to keep track of the progress of the task.
+
+Clickup also allows you to create a 'Space' which is a collection of folders that are related to each other.
+
+I have decided to use clickup to track network issues in the organisation. I have created a list called 'Issue_Tracking', which will allow employees to create issues as tasks(with a template) and assign them to the IT department.
+
+![issue](Img/issue.PNG)
+
+The issue task then can be used for communications, updates and to keep track of the progress of the issue.
+
+![statuses](Img/StatusesIssues.png)
+
+- Issue raised: The issue has been raised by an employee and is waiting to be recognised by the IT department
+
+- Issue escalated: The issue has not been resolved or has taken too long to resolve and has been escalated to the next level
+
+- Issue troubleshooting: The issue is being investigated and fixed by the IT department
+
+- Issue fixed: The issue has been fixed and the employee has been notified, no further action needed.
+
+- Out-Of-Date: To avoid clutter on the board, the issue will be deleted or archived after 30 days of being fixed.
+
+### Tracking issues
+
+For the issue not to get lost the template has been created to ensure that all the relevant information is provided, click up also allows provides task ID's and custom ID's to keep track of the issues. The task will also have set dates.
+
+### Testing the solution
+
+To test the solution I have been provided with a list of sample issues that I have to resolve. The issues are as follows:
+
+|ID|Issue|
+|---|---|
+|1|"I am unable to access my email account through the company's email server. Can you help me troubleshoot this issue?"|
+|2|"I cannot access any of the shared files on the network. Is there something wrong with the network settings?"|
+|3|"I am receiving an error message when I try to access a specific website. Is there something wrong with the network or is it a problem with the website?"|
+
+Now to begin troubleshooting the issues the user will have to provide the information in this format
+
+1. He creates a new task and selects the template 'Report an issue'
+
+    ![template](Img/template.PNG)
+
+2. He fills out the template and provides the information that is required
+
+    Issue #1:
+
+      The user has provided the following information and started a thread in the task to communicate with the IT department:
+
+      ![info](Img/info1.PNG)
+
+      IT Technician has responded to the issue and has asked the user to provide more information(This information will be stored in the task description to keep note for the future):
+
+      ![info2](Img/info2.PNG)
+
+      IT Technician has set the task as 'Issue troubleshooting' and has started to troubleshoot the issue:
+
+      ![info3](Img/info3.PNG)
+
+      IT Technician has fixed the issue and has set the task as 'Issue fixed':
+
+      ![info4](Img/info4.PNG)
+
+    Issue #2:
+
+      The user has provided the following information and started a thread in the task to communicate with the IT department:
+
+      ![info5](Img/info5.PNG)
+
+      IT Technician has responded to the issue and has asked the user to provide more information(This information will be stored in the task description to keep note for the future):
+
+      ![info6](Img/info6.PNG)
+
+      IT Technician has set the task as 'Issue troubleshooting' and has started to troubleshoot the issue. The IT Technician has also escalated the issue to the next level(Due to the issue being more complex):
+
+      ![info7](Img/info7.PNG)
+
+      The IT technician has found out that Jr. Staff is trying to access a folder without clearance, the IT technician has informed the user that he should not be able to access the folder and has noted down the possible security concerns in the task description, to make sure that directors are aware of the issue:
+
+      ![info8](Img/info8.PNG)
+
+      ![info9](Img/info9.PNG)
+
+      The network not found error was caused by the user not being able to access the folder, the issue has been fixed, but the task will remain escalated due to potential security concerns.
+
+    Issue #3:
+
+      The user has provided the following information and started a thread in the task to communicate with the IT department:
+
+      ![info10](Img/info10.PNG)
+
+      IT Technician has responded to the issue and has asked the user to provide more information(This information will be stored in the task description to keep note for the future):
+
+      ![info11](Img/info11.PNg)
+
+      IT Technician has fixed the issue like this:
+
+      ![info12](Img/info12.PNG)
+
 ## Justification of the solution
+
+### Documents
+
+#### Network Code of Practice
+
+This document outlines the standard operating procedures for managing and maintaining the network. It helps ensure that all IT staff and users follow the same protocols, thereby reducing the risk of errors, system failures, and security breaches.
+
+#### User Support Documentation
+
+This document provides users with the necessary information to troubleshoot basic issues on their own without relying on IT support. It also helps IT support to address user issues more efficiently, as users can provide detailed information about the issue they are facing.
+
+#### Backup procedures
+
+This document details the backup procedures for critical data, applications, and system settings. It ensures that data is backed up regularly, reducing the risk of data loss due to hardware or software failures, natural disasters, or cyber-attacks.
+
+#### Serivce Level Agreement(SLA)
+
+This document specifies the expected level of service from IT support and outlines the responsibilities of both IT support and users. It helps manage user expectations and sets clear guidelines for resolving issues in a timely and efficient manner.
+
+#### Support & Escalation procedures
+
+This document outlines the steps that IT support staff should take when they encounter an issue that they are unable to resolve. It ensures that issues are escalated to the appropriate person or team, ensuring timely resolution and reducing downtime for users.
+
+#### Security Policy
+
+This document outlines the policies, procedures, and guidelines for securing the network and protecting sensitive information from unauthorized access or theft. It helps ensure that all users and IT staff are aware of their responsibilities in maintaining network security and minimizing the risk of data breaches.
+
+### Desktop interface
+
+A unified desktop interface can bring several benefits to a business.
+
+First, it can improve the overall user experience by providing employees with a consistent and familiar interface across all applications and tools they use in their daily work. This can reduce the learning curve for new tools and increase productivity by reducing the time spent switching between different interfaces.
+
+A unified desktop interface can simplify IT management by reducing the number of different interfaces and tools that need to be supported. This can reduce the workload for IT staff and lower the overall IT costs for the business.
+
+Similar desktop interface can enhance security by enforcing consistent security policies across all applications and tools. This can reduce the risk of security breaches and improve compliance with regulatory requirements.
+
+### Use of Clickup to track issues
+
+ClickUp is an effective tool for tracking IT issues for several reasons. It allows IT teams to easily create, assign, and prioritize tasks, ensuring that nothing falls through the cracks. The ability to attach files and add comments to tasks means that important information is readily available, reducing the need for additional communication and speeding up the resolution process.
+
+Customizable task statuses and workflows which make it easy for teams to track the progress of issues and identify any bottlenecks. It also provides automated notifications, keeping team members up-to-date on changes and ensuring that everyone is on the same page.
+
+Useful features that can be used across IT teams, such as time tracking, integrations with other tools(like GitHub). This can help teams to improve their productivity and efficiency and bring everything together in one place.
+
+It provides a centralized platform for IT teams to track, manage, and resolve issues quickly and efficiently
