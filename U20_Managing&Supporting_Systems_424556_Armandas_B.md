@@ -196,7 +196,7 @@ The document will include the following:
 
 Below is a screenshot of the completed task in 'Click Up':
 
-![Plan](img/Following_the_plan5.PNG)
+![Plan](../U20-System%20Support/img/Following_the_plan5.PNG)
   
 ### Feedback section:
 
